@@ -484,7 +484,7 @@ ul{
   color: #ffffff;
   font-size: 22px;
   margin-bottom: 10px;
-  font-family: inherit; /* matches the serif used in your "Stevine Cusine" heading */
+  font-family: inherit; 
 }
 
 .footer-brand p {
@@ -511,11 +511,12 @@ ul{
 .footer-links ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 .footer-links li {
   margin-bottom: 10px;
-}
+  white-space:nowrap;
 
 .footer-links a {
   color: #b8afa8;
@@ -525,7 +526,7 @@ ul{
 }
 
 .footer-links a:hover {
-  color: #ea580c; /* same orange as your Order Now button and Featured badges */
+  color: #ea580c;
 }
 
 .footer-contact p {
